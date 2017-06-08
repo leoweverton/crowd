@@ -1,0 +1,23 @@
+{
+  "name": "pluralia",
+  "version": "0.0.1",
+  "description": "Site de Financiamento Coletivo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoweverton/crowd.git"
+  },
+  "author": "LEO, MEDINA, IGOR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoweverton/crowd/issues"
+  },
+  "homepage": "https://github.com/leoweverton/crowd#readme",
+  "dependencies": {
+    "mongoose": "^4.10.5",
+    "nodemon": "^1.11.0"
+  }
+}
