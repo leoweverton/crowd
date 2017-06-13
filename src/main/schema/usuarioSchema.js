@@ -1,10 +1,11 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+'use restrict'
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
 
-var usuario = {
-    nome : {type : String},
-    email : {type : String},
-    senha : {type : String}
-};
+var usuario = new Schema({
+    nome : {type: String, require : true},
+    email : {type: String, require : true, set : function(v){return v.toLowerCase()}},
+    senha : {type: String, require : true}
+});
 
-module.exports = new Schema(usuario);
+module.exports = usuario;
