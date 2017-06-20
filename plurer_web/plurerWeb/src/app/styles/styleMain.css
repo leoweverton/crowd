@@ -1,0 +1,83 @@
+    .modal-header,
+    .close {
+        background-color: #fff;
+        text-align: left;
+        height: 65px;
+    }
+    
+    .esqueci-senha {
+        font-size: 14px;
+    }
+    
+    .modal-header span {
+        margin-left: 75px;
+    }
+
+    
+    .modal-footer,
+    .modal-body {
+        background-color: #dcebf0;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .modal-header .close {
+        margin-top: -25px;
+    }
+    
+    .modal-login {
+        box-shadow: 3px 3px 16px black;
+        margin-top: 160px;
+        width: 370px;
+    }
+    
+    .plurer-ico-48 {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .plurer-ico-32 {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .modal-body .txt-login {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #e5e5e5 !important;
+        width: 300px;
+        text-align: left;
+        color: black;
+    }
+    
+    .btn-login {
+        margin: 10px;
+        width: 200px;
+        margin-top: 15px
+    }
+    
+    .btn-modal {
+        width: 160px;
+    }
+    
+    .msg-validacao-erro {
+        display: none;
+    }
+    
+    .social-buttons {
+        margin-top: 10px;
+        width: 270px;
+        margin-left: 35px;
+    }
+    
+    .fb {
+        background: url(https://static.wired.com/projects/desktop-interstitial/www/img/facebook-signup.svg) top center no-repeat;
+        height: 35px;
+        display: inline-block;
+        margin: 5px;
+        width: 25%;
+    }
+
+    #fh5co-wrapper{
+        margin: -8px;
+    }
